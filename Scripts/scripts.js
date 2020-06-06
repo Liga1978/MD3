@@ -87,7 +87,6 @@ function fizzbuzz () {
 }
 
 function addEventHandlers() {
-    console.log("adding Handlers");
     document.getElementById("btn-id-add-many").onclick = addManyElements;
     document.getElementById("btn-id-clear").onclick = deleteElements;
     document.getElementById("fizzbuzz").onclick = fizzbuzz;
